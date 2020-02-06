@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 5px 3px 3px #888888;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: rgba(88, 86, 86, 0.479);
+  border: 0.75px solid rgba(88, 86, 86, 0.600);
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  margin: 5px 5px 3px 10px;
+}
